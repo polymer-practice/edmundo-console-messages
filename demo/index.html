@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>console-messages demo</title>
+
+    <script src="../../webcomponentsjs/webcomponents-loader.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../console-messages.html">
+
+    <custom-style>
+      <style is="custom-style" include="demo-pages-shared-styles">
+      </style>
+    </custom-style>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic console-messages demo</h3>
+      <demo-snippet>
+        <template>
+          <console-messages>
+            <div class="message__body">
+              <h3 class="message__body-title">I'm a subtitle</h3>
+              <div class="message__body-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ex molestiae, alias provident voluptatem voluptates id autem pariatur fuga, similique minima iste ipsum aut consectetur, quasi debitis eum non aspernatur!</p>
+              </div>
+            </div>
+          </console-messages>
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>
