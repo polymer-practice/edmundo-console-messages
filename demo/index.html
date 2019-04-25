@@ -23,11 +23,14 @@
       <demo-snippet>
         <template>
           <console-messages>
-            <div class="message__body">
+            <div class="message__body" slot="body">
               <h3 class="message__body-title">I'm a subtitle</h3>
               <div class="message__body-content">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ex molestiae, alias provident voluptatem voluptates id autem pariatur fuga, similique minima iste ipsum aut consectetur, quasi debitis eum non aspernatur!</p>
               </div>
+            </div>
+            <div class="message__footer" slot="footer">
+              <button type="button">Enviar</button>
             </div>
           </console-messages>
         </template>
